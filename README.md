@@ -54,3 +54,25 @@
   - `해결법`
   - 외부 저장장치에 링크
   - 별도의 클라우드 스토리지 사용 `ex) AWS S3 등`
+  
+# Container vs VM
+
+<p align="center"><img src="https://devocean.sk.com/CKFinderJava/userfiles/images/vm%20vs%20docker.png"></p>
+
+- 왼쪽 : 도커의 구조, 오른쪽 : VM의 구조
+
+**VM**
+
+- 하이퍼바이저 (Hypervisor) 
+  - Virtual Box 나 VM Ware 와 같은 `가상 머신을 생성하고 실행하는 프로세스`
+  - 하드웨어를 에뮬레이션하여 하나의 컴퓨터에서 `다수의 운영체제를 운영할 수 있게 해주는 소프트웨어`
+  
+- Host OS : 하이퍼바이저 자체 실행
+- Guest OS : 하이퍼바이저가 구동하는 가상화된 OS
+
+**도커**
+
+- Guest OS 없이 프로세스를 격리하는 방식으로 Host OS의 모든 기능과 리소스를 컨테이너 간 공유
+
+
+
