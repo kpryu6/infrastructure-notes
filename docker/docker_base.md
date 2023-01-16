@@ -7,13 +7,13 @@
 - [Docker Docs](https://docs.docker.com/)
 
 ---
+- `컨테이너 기반`의 오픈소스 가상화 플랫폼
+- **Go 언어**
 - made by Linux
   - 리눅스 커널 기능
     - Chroot : 독립 공간 형성
     * Namespace : isolate 기능 지원
     - cGroup : 필요한 만큼의 하드웨어 지원
-- `컨테이너 기반`의 오픈소스 가상화 플랫폼
-- **Go 언어**
 
 </br>
 
