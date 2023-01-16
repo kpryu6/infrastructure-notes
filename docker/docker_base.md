@@ -13,18 +13,7 @@
 - **Go 언어**
 
 </br>
-
-### 앱스토어 비유
-
-|app store|$\leftrightarrow$|docker hub|
-|---|---|---|
-|$\downarrow$ download| |$\downarrow$ pull|
-|program|$\leftrightarrow$|image|
-|$\downarrow$ run| |$\downarrow$ run|
-|process|$\leftrightarrow$|container|
-
 #
-</br>
 
 ## Container
 
