@@ -1,15 +1,34 @@
 
 # Docker
 
+<p><img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" width = "25%"></p>
+
+---
+- made by Linux
+  - 리눅스 커널 기능
+    - Chroot : 독립 공간 형성
+    * Namespace : isolate 기능 지원
+    - cGroup : 필요한 만큼의 하드웨어 지원
 - `컨테이너 기반`의 오픈소스 가상화 플랫폼
 - **Go 언어**
 
-<p><img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" width = "25%"></p>
+</br>
+
+### 앱스토어 비유
+
+|app store|$\leftrightarrow$|docker hub|
+|---|---|---|
+|$\downarrow$ download| |$\downarrow$ pull|
+|program|$\leftrightarrow$|image|
+|$\downarrow$ run| |$\downarrow$ run|
+|process|$\leftrightarrow$|container|
 
 #
 </br>
 
 ## Container
+
+### 예시
 
 **해상 운송업**
 
@@ -17,6 +36,8 @@
   - 선적물들이 거대한 상자모양 컨테이너에 패키징 되어 화물선에 선적
   - 해상 운송업자는 안에 어떤 것들이 있는지 알 필요 X
   
+#
+
 **도커**
 
 - 도커도 서비스 운용에 필요한 실행환경, 라이브러리, 소프트웨어, 시스템 도구, 코드 등을 컨테이너라는 표준화된 단위로 추상화
@@ -60,7 +81,7 @@
 
 <p align="center"><img src="https://devocean.sk.com/CKFinderJava/userfiles/images/vm%20vs%20docker.png"></p>
 
-- 왼쪽 : 도커의 구조, 오른쪽 : VM의 구조
+- 왼쪽 : 컨테이너의 구조, 오른쪽 : VM의 구조
 
 **VM**
 
@@ -77,6 +98,8 @@
 **Container**
 
 - Guest OS 없이 프로세스를 격리하는 방식으로 Host OS의 모든 기능과 리소스를 컨테이너 간 공유
+
+
 
 - OS는 공유, 애플리케이션만 확장
 
