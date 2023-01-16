@@ -18,7 +18,7 @@
 
 ## **Apache Web server**을 Container 위에서 실행
 
-**pull**
+### pull
 
 - httpd를 검색하여 image 확인
 ```
@@ -30,7 +30,7 @@ docker pull httpd
 docker images
 ```
   
-**run**
+### run
 
 - httpd 기반의 Container 생성 및 실행
 ```
@@ -70,7 +70,7 @@ docker logs -f ws2
 
 ## Network
 
-**도커 없이 Web Server 구축**
+### 도커 없이 Web Server 구축
 
 - 2대 컴퓨터 필요
   - Web browser 설치된 1대
@@ -84,7 +84,7 @@ docker logs -f ws2
 <p align="center"><img src="https://user-images.githubusercontent.com/113777043/212723381-0db9733e-e9e4-41bf-95e6-a139ab716078.png" ></p>
 
 
-**도커로 Web Server 구축**
+### 도커로 Web Server 구축
 
 - Web Server가 Container에 설치됨
 - Container가 설치된 OS는 Host
@@ -103,7 +103,7 @@ docker run --name ws3 -p 8081:80 httpd
 
 </br>
 
-**index.html 편집**
+### index.html 편집
 
 - `index.html`은 `/usr/local/apache2/htdocs` 안에 존재
 
