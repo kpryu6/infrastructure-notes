@@ -4,7 +4,7 @@
 - `컨테이너 기반`의 오픈소스 가상화 플랫폼
 - **Go 언어**
 
-<p align="center"><img src="https://devocean.sk.com/CKFinderJava/userfiles/images/docker-logo.png"></p>
+<p><img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" width = "25%"></p>
 
 #
 </br>
@@ -74,7 +74,7 @@
 - VM을 늘리려면 OS를 계속 하나하나 달아야함
 
 
-**도커**
+**Container**
 
 - Guest OS 없이 프로세스를 격리하는 방식으로 Host OS의 모든 기능과 리소스를 컨테이너 간 공유
 
