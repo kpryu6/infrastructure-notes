@@ -32,3 +32,14 @@
 - 디플로이먼트 (Deployment)
   - 
   
+---
+
+# Why Kubernetes?
+
+**what if**
+- `하나의 운영체제에 도커를 올려 컨테이너 관리` $\Rightarrow$ `효율적`
+- $\Rightarrow$ But, 시스템 무너지면 끝 $\Rightarrow$ 노드를 하나 더 만듦
+- 노드가 증가하면 관리가 어려워짐
+
+## 컨테이너 오케스트레이션
+- 노드들을 관리하는 마스터 노드를 만듦 `마스터 노드 = Control Plane`
